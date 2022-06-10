@@ -1,0 +1,8 @@
+<suite name="UnsuccessfulRegister-Login" verbose="1" >
+    <test name="Unsuccessful Register - Login Test">
+        <classes>
+            <class name="register.UnsuccessfulRegister"/>
+            <class name ="auth.UnsuccessfulLogin"/>
+        </classes>
+    </test>
+</suite>

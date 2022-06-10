@@ -1,0 +1,14 @@
+<suite name="SatuFlowTest" verbose="1" >
+    <test name="Satu Flow Test">
+        <classes>
+            <class name="register.UnsuccessfulRegister"/>
+            <class name="register.SuccessRegister"/>
+            <class name="auth.UnsuccessfulLogin"/>
+            <class name="auth.SuccessLogin"/>
+            <class name="users.CreateUserTest"/>
+            <class name="users.UpdateUserTest"/>
+            <class name="users.ListUserTest"/>
+            <class name="users.SingleUserTest"/>
+        </classes>
+    </test>
+</suite>

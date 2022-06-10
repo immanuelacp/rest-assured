@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-08T20:49:30 WIB" name="UsersTest" finished-at="2022-06-08T20:49:36 WIB" duration-ms="6070">
+    <groups>
+    </groups>
+    <test started-at="2022-06-08T20:49:30 WIB" name="Users Test" finished-at="2022-06-08T20:49:36 WIB" duration-ms="6070">
+      <class name="users.SingleUserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:users.SingleUserTest@13e39c73]" started-at="2022-06-08T20:49:34 WIB" name="setup" finished-at="2022-06-08T20:49:34 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SingleUserTest(org.testng.ITestContext)[pri:0, instance:users.SingleUserTest@13e39c73]" started-at="2022-06-08T20:49:34 WIB" name="SingleUserTest" finished-at="2022-06-08T20:49:34 WIB" duration-ms="174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@436bc36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SingleUserTest -->
+      </class> <!-- users.SingleUserTest -->
+      <class name="users.UpdateUserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:users.UpdateUserTest@9225652]" started-at="2022-06-08T20:49:35 WIB" name="setup" finished-at="2022-06-08T20:49:35 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="UpdateUserTest(org.testng.ITestContext)[pri:0, instance:users.UpdateUserTest@9225652]" started-at="2022-06-08T20:49:35 WIB" name="UpdateUserTest" finished-at="2022-06-08T20:49:36 WIB" duration-ms="630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@436bc36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateUserTest -->
+      </class> <!-- users.UpdateUserTest -->
+      <class name="users.CreateUserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:users.CreateUserTest@64cd705f]" started-at="2022-06-08T20:49:34 WIB" name="setup" finished-at="2022-06-08T20:49:34 WIB" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CreateUserTest(org.testng.ITestContext)[pri:0, instance:users.CreateUserTest@64cd705f]" started-at="2022-06-08T20:49:34 WIB" name="CreateUserTest" finished-at="2022-06-08T20:49:35 WIB" duration-ms="1406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@436bc36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUserTest -->
+      </class> <!-- users.CreateUserTest -->
+      <class name="users.ListUserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:users.ListUserTest@e056f20]" started-at="2022-06-08T20:49:30 WIB" name="setup" finished-at="2022-06-08T20:49:30 WIB" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ListUserTest(org.testng.ITestContext)[pri:0, instance:users.ListUserTest@e056f20]" started-at="2022-06-08T20:49:30 WIB" name="ListUserTest" finished-at="2022-06-08T20:49:34 WIB" duration-ms="3191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@436bc36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListUserTest -->
+      </class> <!-- users.ListUserTest -->
+    </test> <!-- Users Test -->
+  </suite> <!-- UsersTest -->
+  <suite started-at="2022-06-08T20:49:36 WIB" name="SuccessRegister-LoginTest" finished-at="2022-06-08T20:49:37 WIB" duration-ms="1554">
+    <groups>
+    </groups>
+    <test started-at="2022-06-08T20:49:36 WIB" name="Success Register - Login Test" finished-at="2022-06-08T20:49:37 WIB" duration-ms="1554">
+      <class name="register.SuccessRegister">
+        <test-method is-config="true" signature="setup()[pri:0, instance:register.SuccessRegister@61df66b6]" started-at="2022-06-08T20:49:36 WIB" name="setup" finished-at="2022-06-08T20:49:36 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SuccessfulRegister(org.testng.ITestContext)[pri:0, instance:register.SuccessRegister@61df66b6]" started-at="2022-06-08T20:49:36 WIB" name="SuccessfulRegister" finished-at="2022-06-08T20:49:37 WIB" duration-ms="837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7ac48e10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessfulRegister -->
+      </class> <!-- register.SuccessRegister -->
+      <class name="auth.SuccessLogin">
+        <test-method is-config="true" signature="setup()[pri:0, instance:auth.SuccessLogin@50eac852]" started-at="2022-06-08T20:49:37 WIB" name="setup" finished-at="2022-06-08T20:49:37 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SuccessLogin(org.testng.ITestContext)[pri:0, instance:auth.SuccessLogin@50eac852]" started-at="2022-06-08T20:49:37 WIB" name="SuccessLogin" finished-at="2022-06-08T20:49:37 WIB" duration-ms="709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7ac48e10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessLogin -->
+      </class> <!-- auth.SuccessLogin -->
+    </test> <!-- Success Register - Login Test -->
+  </suite> <!-- SuccessRegister-LoginTest -->
+  <suite started-at="2022-06-08T20:49:40 WIB" name="AllTest" finished-at="2022-06-08T20:49:40 WIB" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- AllTest -->
+  <suite started-at="2022-06-08T20:49:37 WIB" name="UnsuccessfulRegister-Login" finished-at="2022-06-08T20:49:39 WIB" duration-ms="1506">
+    <groups>
+    </groups>
+    <test started-at="2022-06-08T20:49:37 WIB" name="Unsuccessful Register - Login Test" finished-at="2022-06-08T20:49:39 WIB" duration-ms="1506">
+      <class name="register.UnsuccessfulRegister">
+        <test-method is-config="true" signature="setup()[pri:0, instance:register.UnsuccessfulRegister@20deea7f]" started-at="2022-06-08T20:49:37 WIB" name="setup" finished-at="2022-06-08T20:49:37 WIB" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="UnsuccessfulRegister()[pri:0, instance:register.UnsuccessfulRegister@20deea7f]" started-at="2022-06-08T20:49:37 WIB" name="UnsuccessfulRegister" finished-at="2022-06-08T20:49:38 WIB" duration-ms="896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnsuccessfulRegister -->
+      </class> <!-- register.UnsuccessfulRegister -->
+      <class name="auth.UnsuccessfulLogin">
+        <test-method is-config="true" signature="setup()[pri:0, instance:auth.UnsuccessfulLogin@3835c46]" started-at="2022-06-08T20:49:38 WIB" name="setup" finished-at="2022-06-08T20:49:38 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="UnsuccessfulLogin()[pri:0, instance:auth.UnsuccessfulLogin@3835c46]" started-at="2022-06-08T20:49:38 WIB" name="UnsuccessfulLogin" finished-at="2022-06-08T20:49:39 WIB" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnsuccessfulLogin -->
+      </class> <!-- auth.UnsuccessfulLogin -->
+    </test> <!-- Unsuccessful Register - Login Test -->
+  </suite> <!-- UnsuccessfulRegister-Login -->
+</testng-results>

@@ -1,0 +1,7 @@
+<suite name="AllTest" >
+    <suite-files>
+        <suite-file path="User.xml"></suite-file>
+        <suite-file path="SuccessRegister-Login.xml"></suite-file>
+        <suite-file path="UnsuccessfulRegister-Login.xml"></suite-file>
+    </suite-files>
+</suite>
